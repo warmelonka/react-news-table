@@ -1,0 +1,17 @@
+.socials {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.socials_social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 65px;
+    height: 65px;
+
+    background-color: #141414;
+    border-radius: 8px;
+}

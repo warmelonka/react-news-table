@@ -1,0 +1,40 @@
+@import './assets/fonts/fonts.css';
+
+:root {
+  --accent-color: #F3FF53;
+
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  letter-spacing: 0.15px;
+  color: #FFF;
+}
+
+p, 
+ul,
+button,
+span {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}

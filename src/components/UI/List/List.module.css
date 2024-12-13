@@ -1,0 +1,13 @@
+.list {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.list__medium {
+    line-height: 20px;
+    font-size: inherit;
+    font-weight: normal;
+
+    opacity: 70%;
+}

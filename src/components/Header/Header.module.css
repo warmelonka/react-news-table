@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px;
+    width: 100%;
+    max-width: 1392px;
+
+    background-color: #141414;
+    border-radius: 8px;
+}
+
+.header_buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_language {
+    display: flex;
+
+    margin-right: 60px;
+    padding: 4px 8px;
+}
+
+.header_topUp {
+    margin-right: 32px;
+    padding: 10px 16px;
+
+    font-weight: 600;
+    color: black;
+
+    background-color: var(--accent-color);
+    border-radius: 8px;
+}
+
+.header_user {
+    display: flex;
+}

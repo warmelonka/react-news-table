@@ -1,0 +1,19 @@
+.app {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+
+    margin: 0 auto;
+    padding: 4px 4px 50px;
+
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+.app_header {
+    margin-bottom: 80px;
+}
+
+.app_main {
+    margin-bottom: 160px;
+}
